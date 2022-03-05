@@ -1,4 +1,4 @@
-package resources;
+package com.ideafreaks.resources;
 
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFCell;

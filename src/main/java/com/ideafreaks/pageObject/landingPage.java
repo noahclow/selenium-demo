@@ -1,4 +1,4 @@
-package pageObject;
+package com.ideafreaks.pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,11 +14,11 @@ public class landingPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//a[@class='login']")
-    private WebElement signInLink;
+    @FindBy(id = "searchDropdownBox")
+    private WebElement searchDropdownBox;
 
-    @FindBy(xpath = "//a[@title='Women']")
-    private WebElement womenSection;
+    @FindBy(id = "twotabsearchtextbox")
+    private WebElement twotabsearchtextbox;
 
     @FindBy(css = "li[class='sfHover'] a[title='T-shirts']")
     private WebElement womenTshirts;
@@ -27,14 +27,14 @@ public class landingPage {
     private WebElement summerDresses;
 
     public boolean verifySignInLink() {
-        return signInLink.isDisplayed();
+        return searchDropdownBox.isDisplayed();
     }
 
-    public loginPage userClicksOnSignInLink() {
-        signInLink.click();
-        return new loginPage(driver);
-    }
+    public void userClicksSearchDropdown() {
+        searchDropdownBox.click();
 
+    }
+/* 
     public void moveToWomenSection() {
         Actions action = new Actions(driver);
         action.moveToElement(womenSection).perform();
@@ -52,6 +52,6 @@ public class landingPage {
         action.moveToElement(summerDresses).perform();
         action.click().build().perform();
         return new summerDressesPage(driver);
-    }
+    } */
 
 }

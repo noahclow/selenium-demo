@@ -1,4 +1,4 @@
-package pageObject;
+package com.ideafreaks.pageObject;
 
 import org.apache.maven.surefire.shared.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
