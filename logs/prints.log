@@ -1,0 +1,121 @@
+17:33:31.359 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+17:33:31.495 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+17:33:32.877 [main] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/broken_images
+17:33:33.041 [main] INFO  com.ideafreaks.resources.Base - The page under test has 3 images
+17:33:33.814 [main] INFO  com.ideafreaks.resources.Base - <img src="asdf.jpg"> is broken.
+17:33:34.291 [main] INFO  com.ideafreaks.resources.Base - <img src="hjkl.jpg"> is broken.
+17:34:23.656 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+17:34:23.799 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+17:34:26.218 [main] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/broken_images
+17:34:26.373 [main] INFO  com.ideafreaks.resources.Base - The page under test has 3 images
+17:34:27.081 [main] INFO  com.ideafreaks.resources.Base - <img src="asdf.jpg"> is broken.
+17:34:27.511 [main] INFO  com.ideafreaks.resources.Base - <img src="hjkl.jpg"> is broken.
+17:50:17.261 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test execution TestCase 01 BrokenImages
+17:50:19.333 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+17:50:19.469 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Driver is initialized
+17:50:20.916 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/broken_images
+17:50:20.932 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test test_selenium_broken_images_appr_2
+17:50:21.037 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Passed test test_selenium_broken_images_appr_2
+17:50:21.040 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test verifyBrokenImages
+17:50:21.051 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - The page under test has 3 images
+17:50:21.882 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - <img src="asdf.jpg"> is broken.
+17:50:22.348 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - <img src="hjkl.jpg"> is broken.
+17:50:22.726 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Passed test verifyBrokenImages
+17:50:22.807 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Finish test execution TestCase 01 BrokenImages
+18:13:47.041 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test execution Verify Broken Images
+18:13:48.833 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+18:13:48.977 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Driver is initialized
+18:13:51.898 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/broken_images
+18:13:51.913 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test verifyBrokenImages
+18:13:52.020 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Passed test verifyBrokenImages
+18:13:52.023 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Start test verifyBrokenImagesHttpCode
+18:13:52.035 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - The page under test has 3 images
+18:13:52.970 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - <img src="asdf.jpg"> is broken.
+18:13:53.329 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - <img src="hjkl.jpg"> is broken.
+18:13:53.660 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Passed test verifyBrokenImagesHttpCode
+18:13:53.738 [TestNG-tests-1] INFO  com.ideafreaks.resources.Base - Finish test execution Verify Broken Images
+18:27:09.940 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+18:27:10.087 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+18:27:10.582 [main] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/basic_auth
+18:34:56.289 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+18:34:56.456 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+18:34:56.939 [main] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/basic_auth
+23:54:23.682 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+23:54:23.832 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+23:54:24.398 [main] INFO  com.ideafreaks.resources.Base - Open https://the-internet.herokuapp.com/basic_auth
+23:54:28.036 [main] INFO  com.ideafreaks.resources.Base - The page title is The Internet
+23:54:28.067 [main] INFO  com.ideafreaks.resources.Base - The test present in page is ==> Congratulations! You must have the proper credentials.
+00:06:23.750 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+00:06:23.909 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+00:07:41.392 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+00:07:41.558 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+00:08:35.401 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+00:08:35.552 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+00:09:11.056 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+00:09:11.200 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+00:12:39.352 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+00:12:39.550 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+10:45:01.404 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+10:45:01.538 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+10:45:38.917 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+10:45:39.068 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+10:53:31.349 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+11:02:04.297 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+11:05:58.692 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+11:22:24.470 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+11:25:44.998 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+11:25:45.140 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:06:27.484 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:06:27.625 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:44:29.887 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:44:30.035 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:52:39.521 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:52:39.675 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:55:14.097 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:55:14.271 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:56:14.877 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:56:15.023 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+14:56:57.117 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+14:56:57.262 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:00:56.533 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:00:56.689 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:02:04.152 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:02:04.290 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:03:20.777 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:03:20.918 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:08:33.516 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:08:33.676 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:19:42.842 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:19:42.979 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:20:24.027 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:20:24.159 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:22:41.524 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:22:41.654 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:24:05.776 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:24:05.911 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:25:30.228 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:25:30.362 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:26:47.452 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:26:47.606 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:33:32.182 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:33:32.337 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:33:59.714 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:33:59.853 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:39:06.229 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:39:06.405 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:40:45.757 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:40:45.928 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:42:03.699 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:42:03.855 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:42:55.381 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:42:55.523 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:44:41.410 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:44:41.571 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:47:01.693 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:47:01.825 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:51:35.859 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:51:36.023 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:52:32.849 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:52:33.012 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized
+15:53:52.968 [main] INFO  com.ideafreaks.resources.Base - Browser is initialized = chrome
+15:53:53.103 [main] INFO  com.ideafreaks.resources.Base - Driver is initialized

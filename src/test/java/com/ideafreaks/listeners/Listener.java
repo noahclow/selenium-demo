@@ -1,18 +1,19 @@
-package com.ideafreaks.Listeners;
+package com.ideafreaks.listeners;
+
+import java.io.IOException;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.ideafreaks.resources.Base;
+import com.ideafreaks.resources.ExtentReporterNG;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import resources.Base;
-import resources.ExtentReporterNG;
-
-import java.io.IOException;
 
 public class Listener extends Base implements ITestListener {
     public static Logger log = LogManager.getLogger(Base.class.getName());

@@ -28,14 +28,14 @@ public class Base {
         //chrome
         //firefox
         prop = new Properties();
-        FileInputStream fileInputStream = new FileInputStream("src/main/java/resources/data.properties");
+        FileInputStream fileInputStream = new FileInputStream("src/main/java/com/ideafreaks/resources/data.properties");
         prop.load(fileInputStream);
 
         //mvn test -Dbrowser=<browserName>
 
-        String browserName = System.getProperty("browser"); // to run from maven
+        //String browserName = System.getProperty("browser"); // to run from maven
 
-        //String browserName = prop.getProperty("browser"); // for use from the data.properties
+        String browserName = prop.getProperty("browser"); // for use from the data.properties
 
         if (browserName.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/main/driver/chromedriver");
@@ -50,6 +50,7 @@ public class Base {
             log.info("Browser is initialized = " + browserName);
         }
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         return driver;
