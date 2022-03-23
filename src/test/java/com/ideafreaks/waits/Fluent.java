@@ -33,27 +33,27 @@ public class Fluent extends Base {
     protected void explicitWait() throws InterruptedException, IOException {
 
 
-
         driver = initializeDriver();
         log.info("Driver is initialized");
         driver.get(URL);
         log.info("Open " + URL);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
-        
-        Wait<WebDriver> wait = new FluentWait<WebDriver> (driver)
-        .withTimeout(Duration.ofSeconds(20))
-        .pollingEvery(Duration.ofMillis(200))
-        .ignoring(NoSuchElementException.class);
 
-        try{
-            WebElement button = wait.until(new Function<WebDriver, WebElement>(){
-                public WebElement apply(WebDriver driver){
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(Duration.ofSeconds(20))
+                .pollingEvery(Duration.ofMillis(200))
+                .ignoring(NoSuchElementException.class);
+
+        try {
+            WebElement button = wait.until(new Function<WebDriver, WebElement>() {
+                public WebElement apply(WebDriver driver) {
                     return driver.findElement(By.id("visibleAfter"));
-                }});
-                button.click();
+                }
+            });
+            button.click();
+            System.out.println("Boton clickeado");
 
-        } catch(Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e);
         }
         driver.quit();

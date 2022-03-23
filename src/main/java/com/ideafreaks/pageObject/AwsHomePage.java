@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
@@ -49,9 +50,9 @@ public class AwsHomePage extends Base {
 
     public void openResultInOtherTabJs() {
 
-        String Url = getResultURL();
+/*        String Url = getResultURL();
         driver.switchTo().newWindow(WindowType.TAB);
-        driver.get(Url);
+        driver.get(Url);*/
 
         StringBuilder UrlResult;
         UrlResult = new StringBuilder("window.open('" + getResultURL() + "')");
@@ -61,5 +62,6 @@ public class AwsHomePage extends Base {
 
     public void changeTab(String window) {
         driver.switchTo().window(window);
+
     }
 }

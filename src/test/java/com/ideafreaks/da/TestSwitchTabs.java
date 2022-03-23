@@ -5,7 +5,6 @@ import com.ideafreaks.resources.Base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
@@ -15,7 +14,6 @@ import java.util.ArrayList;
 
 public class TestSwitchTabs extends Base {
     public WebDriver driver;
-    public String status;
     String URL = "https://aws.amazon.com/es/";
     public static Logger log = LogManager.getLogger(Base.class.getName());
 
@@ -41,7 +39,7 @@ public class TestSwitchTabs extends Base {
         //switch to new tab
         driver.switchTo().window(newTb.get(3));
         System.out.println("Page title of new tab: " + driver.getTitle());
-        ;
+
         driver.switchTo().window(newTb.get(2));
         System.out.println("Page title of new tab: " + driver.getTitle());
 
@@ -57,8 +55,8 @@ public class TestSwitchTabs extends Base {
 
     }
 
-    @Test(description = "Switch tabs with JS", enabled = true)
-    protected void switchTabsWithJs() throws InterruptedException, IOException {
+    @Test(description = "Switch tabs with", enabled = true)
+    protected void switchTabsWith() throws InterruptedException, IOException {
         driver = initializeDriver();
         log.info("Driver is initialized");
         driver.get(URL);
@@ -78,5 +76,23 @@ public class TestSwitchTabs extends Base {
 
 
     }
+
+    @Test(description = "Switch tabs with JS", enabled = true)
+    protected void switchTabsWithJs() throws InterruptedException, IOException {
+        driver = initializeDriver();
+        log.info("Driver is initialized");
+        driver.get(URL);
+        AwsHomePage AwsHomePage = new AwsHomePage(driver);
+        AwsHomePage.userClicksSearchIcon();
+        AwsHomePage.userTypesSearch("Amazon Corretto");
+/*        //Store the ID of the original window
+        String originalWindow = driver.getWindowHandle();
+        System.out.println(originalWindow);
+        //Check we don't have other windows open already*/
+        assert driver.getWindowHandles().size() == 1;
+        AwsHomePage.openResultInOtherTabJs();
+    }
+
+
 }
 
